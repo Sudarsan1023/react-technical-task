@@ -1,0 +1,59 @@
+// Left menu bar styles start
+.main-container {
+  display: flex;
+  .left-menu-container {
+    background-color: #4502b1;
+    width: 5rem;
+    height: 100vh;
+    span {
+      font-size: 1.3rem;
+      color: #ffffff;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+    }
+    // ul elements style start
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+        //   Active element style start
+        .active-Link {
+          font-size: 1.3rem;
+          color: #ffffff;
+          padding: 1.5rem;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 0.4rem;
+          //   hover effect style start
+          &:hover {
+            background-color: #2d0284;
+            cursor: pointer;
+          }
+          //   hover effect style end
+          //   Active style start
+          &:active {
+            background-color: #2d0284;
+            border-left: 1px solid #15e89b;
+          }
+          //   Active style end
+        }
+        //   Active element style end
+      }
+    }
+    // ul elements style end
+    //   notification styles start
+    .notifications {
+      .notification-icon {
+        position: absolute;
+        bottom: 1rem;
+        font-size: 1.3rem;
+        color: #ffffff;
+        padding: 1.5rem;
+      }
+    }
+    //   notification styles end
+  }
+}
+// Left menu bar styles end

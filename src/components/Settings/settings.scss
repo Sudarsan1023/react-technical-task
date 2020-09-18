@@ -1,0 +1,62 @@
+// Seetings page styles start
+.settings-main-container {
+  background-color: #f3f3f3e5;
+  height: 100vh;
+  width: 95vw;
+  .main-section {
+    display: flex;
+    padding: 3rem;
+    .head-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h5 {
+        color: #8e8e8e;
+      }
+    }
+    // Menu  card section code start
+    .cards-section {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      width: 85%;
+      //   Menu list card styles start
+      .menu-card {
+        height: 8rem;
+        width: 8rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: #67f5f50f;
+        border-radius: 0.3rem;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+        margin: 0.5rem;
+        cursor: pointer;
+        .menu-icon {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        // Card image styles start
+        .image {
+          width: 40px;
+          height: 40px;
+        }
+        // Card image styles end
+        .menu-text {
+          margin: 0;
+          font-size: 12px;
+          color: #9a9a9a;
+          font-weight: 600;
+        }
+        .route {
+          text-decoration: none;
+        }
+      }
+      //   Menu list card styles end
+    }
+    // Menu  card section code end
+  }
+}
+// Seetings page styles end

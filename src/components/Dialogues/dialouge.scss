@@ -1,0 +1,85 @@
+.dialog-container {
+  height: 100vh;
+  width: 95vw;
+  background-color: #f3f3f3e5;
+//   Table card code starts
+  .table-card {
+    padding: 3rem;
+    .table-card-header {
+      height: 3rem;
+      background-color: #ada6a636;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    //   Add Dialogues Code starts
+      .add-dialog-btn {
+        .add-btn {
+          margin-right: 0.4rem;
+        }
+        color: #ffffff;
+        background-color: #32c55f;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.3rem 0.4rem;
+        margin-right: 1rem;
+        font-size: 12px;
+        cursor: pointer;
+      }
+        //   Add Dialogues Code ends
+
+      .tale-class {
+        .table {
+          background-color: #ffffff;
+          width: 100%;
+          padding: 2rem;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    // Tabel Footer styles starts
+    .table-card-footer {
+      height: 3rem;
+      background-color: #ada6a636;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    //   Table pagination styles starts
+      .pagination-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .count-class {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 1.5rem;
+          width: 1.5rem;
+          font-size: 14px;
+          border-radius: 50%;
+          background-color: #4502b1ad;
+          color: #ffffff;
+          margin-right: 0.5rem;
+          cursor: pointer;
+        }
+        .page-count {
+          font-size: 12px;
+          cursor: pointer;
+        }
+        .count {
+          cursor: pointer;
+          font-size: 12px;
+        }
+        .pagination-icon {
+          margin: 0 1rem;
+          cursor: pointer;
+        }
+      }
+    //   Table pagination styles ends
+    }
+     // Tabel Footer styles ends
+  }
+  //   Table card code ends
+}

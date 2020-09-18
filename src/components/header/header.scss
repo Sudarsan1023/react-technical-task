@@ -1,0 +1,42 @@
+// Header code styles start
+.topbar {
+  display: flex;
+  background-color: #ffffff;
+  height: 3rem;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+  .breadcrub-sections {
+    h5 {
+      color: #8e8e8e;
+    }
+  }
+  .account-section {
+    display: flex;
+    h5 {
+      color: #8e8e8e;
+    }
+    // Fisrt alphabet code start
+    .name-letter {
+      height: 2rem;
+      width: 2rem;
+      background-color: #4bc6f5;
+      border-radius: 50%;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+       // Fisrt alphabet code end
+    .drop-down {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 0.5rem;
+      cursor: pointer;
+    }
+  }
+}
+// Header code styles ends
